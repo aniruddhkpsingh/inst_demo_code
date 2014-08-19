@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Instagram demo</string>
+    <string name="bitmap_error_string">Image could not be loaded!</string>
+    <string name="user_error_string">No users found!</string>
+
+</resources>

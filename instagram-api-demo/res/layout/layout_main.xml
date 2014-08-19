@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="2" >
+
+    <TextView
+        android:id="@+id/tvSummary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/standard_padding_twenty"
+        android:layout_weight="1"
+        android:background="@color/elegant_blue"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/standard_padding_twenty"
+        android:text="Not connected"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/standard_padding_twenty"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Connect" />
+
+</LinearLayout>
